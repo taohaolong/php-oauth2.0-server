@@ -1,0 +1,26 @@
+{
+    "name" : "oauth2-server",
+    "description" : "A lightweight and powerful OAuth 2.0 authorization and resource server library based on rfc6749",
+    "version" : "0.1.0",
+    "homepage": "https://github.com/lvqiang/php-oauth2.0-server",
+    "require" : {
+        "php" : ">=5.4.7", 
+        "mockery/mockery": ">=0.7.2",
+        "league/phpunit-coverage-listener": "~1.0"
+
+    },
+    "authors" : [
+        {
+            "name" : "lvqiang",
+            "email" : "lv.rainbow.free@gmail.com",
+            "role" : "developer"
+        }    
+    ],
+    "autoload" : {
+        "psr-0" : {
+            "OAuth2\\Server": "src/"
+        }
+    },
+    "suggest" : {
+    }
+}
